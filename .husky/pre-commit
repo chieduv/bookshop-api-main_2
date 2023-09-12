@@ -4,4 +4,4 @@
 # Refers to "lint" script from package.json
 #npm run lint
 # Refers to "test" script from package.json
-#npm run test
+npm run test
