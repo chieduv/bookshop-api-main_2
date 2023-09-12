@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Refers to "lint" script from package.json
+#npm run lint
+# Refers to "test" script from package.json
+#npm run test
