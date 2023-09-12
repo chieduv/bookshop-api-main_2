@@ -57,7 +57,7 @@ describe('UsersController', () => {
   afterAll(async () => {
     await app.close();
   });
-
+  // return 401 for unauthorized resource access
   describe('Auth Tests', () => {
     it('should return 401 status code', async () => {
       const response = await request(httpServer).get('/auth/profile');

@@ -104,7 +104,7 @@ describe('OrdersController', () => {
     /**
      * 404
      */
-    it('should throw should return OrderNotFound (Bad Request - 400) when the order does not exist', async () => {
+    it('should throw OrderNotFound (Not Found - 404) when the order does not exist', async () => {
       const order = controller.findOne(createOrderDTOStub()._id);
       await expect(order).rejects.toThrow(OrderNotFound);
     });

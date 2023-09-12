@@ -8,6 +8,6 @@ export class OrderAlreadyExists extends HttpException {
 
 export class OrderNotFound extends HttpException {
   constructor() {
-    super('Order not found', HttpStatus.BAD_REQUEST);
+    super('Order not found', HttpStatus.NOT_FOUND);
   }
 }
