@@ -11,4 +11,3 @@ API for a POC bookshop
 5. https://www.tomray.dev/nestjs-docker-production#writing-the-dockerfile
 6. https://cloufish.github.io/blog/posts/Setting-up-zap-scan-in-cicd-pipeline/
 7. read me update
-8. adddd
